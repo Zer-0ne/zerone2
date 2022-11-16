@@ -1,0 +1,140 @@
+#navbar{
+    /* width: 100%;
+    height: 7rem; */
+    display: none;
+    /* background-color: white;
+    position: sticky;
+    flex-direction: row; */
+}
+.navbar{
+    display: flex;
+    /* border: 2px red dotted; */
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+}
+#phone-navbar{
+    display: none;
+    width: 300px;
+    /* height: 100vh; */
+    top: 0;
+    /* border: 2px dotted red; */
+    height: 107vh;
+    background-color: white;
+    position: fixed;
+    /* display: flex; */
+    justify-content: center ;
+    align-items: flex-start;
+    box-shadow: 0rem 0rem 1rem grey;
+}
+#navbar nav{
+    margin: 0rem 0rem;
+    padding: 1px;
+
+
+}
+.news{
+    width: 47%;
+}
+#navbar h2{
+    font-size: 10rem;
+}
+#cross{
+    display: flex;
+    /* height: 2rem; */
+    /* font-size: 2rem;
+    font-weight: bolder; */
+}
+#cross i{
+    font-size: 2rem;
+    padding: 0px;
+    justify-content: center;
+    margin: 0px;
+    margin: 1rem;
+}
+#cross{
+    margin: 0px;
+    padding: 0px;
+    text-align: end;
+}
+#navbar div{
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
+    /* margin: 2rem 1rem; */
+}
+
+#navbar img{
+    width: 45%;
+    border-radius: 4px;
+    margin: 2rem 0rem 0rem 1rem;
+}
+#navbar h2{
+    margin: 0rem 0rem 0rem 1rem;
+    font-size: 1.5vw;
+}
+#navbar p{
+    margin: 0rem 0rem 2rem 1rem;
+    font-size: 1vw;
+}
+#navbar a{
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+    /* font-size: 1vw; */
+    justify-content: center;
+    /* text-align: center; */
+}
+#phone-navbar i{
+    color: black;
+    font-size: 1.1vw;
+    
+}
+.left-margin{
+    margin: 0px 5px;
+}
+#phone-navbar a:hover{
+    background-color: grey;
+
+}
+.margin{
+    margin: 1rem 1rem ;
+}
+.hover1:hover{
+    /* color: grey; */
+    opacity: .7;
+}
+.left-animated{
+    animation: animateleft 0.4s;}
+   
+.navbar img{
+    width: 7%;
+    border-radius: 2rem;
+}
+.navbar div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.navbar i{
+    font-size: 4vw;
+    margin: 0.5re
+}
+#body{
+    display: block;
+    margin: 0px;
+    position: absolute;
+    z-index: -1;
+    /* margin-top: 6rem; */
+}
+.header{
+    margin-top: 6rem;
+}
+.header span{
+    font-size: 3vw;
+}
+.card{
+    padding: 0px;
+}

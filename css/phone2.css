@@ -1,0 +1,41 @@
+.flex{
+    flex-direction: column;
+}
+.news{
+    width: 100%;
+}
+.width{
+    margin: .5rem 0rem;
+}
+.wrap img{
+    width: 100%;
+}
+.card{
+    border-radius: 7vw;
+    width: 4vw;
+    height: 4vw;
+    /* margin: 1rem; */
+}
+#contact i{
+    font-size: 2vw;
+}
+.none{
+    display: none;
+}
+.header span{
+    font-size: 2rem;
+}
+.header h1{
+    font-size: 3rem;
+}
+.news{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.flex{
+    margin: 1rem;
+}
+.phone{
+    padding: 0rem;
+    margin: 0;
+}
